@@ -12,4 +12,3 @@ chart = alt.Chart(df).mark_bar().encode(
 x='a', y='b', tooltip=['a', 'b'])
 # Defining Chart in write() function
 st.write(chart)
-
